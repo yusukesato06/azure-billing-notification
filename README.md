@@ -6,12 +6,15 @@ This script notify azure cost by slack.
 ## Preparation
 
 You need to prepare at least those variables as follows.
+It assumes that app authentication is based on client certificate.
 
 - AppId
 - SubscriptionId
 - TenantId
-- client secret
+- client assertion (JWT)
 - Slack Webhook URL
+- Slack channel
+- Slack username
 
 ## Install
 
